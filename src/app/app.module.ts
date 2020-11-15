@@ -25,6 +25,8 @@ import { PhotoComponent } from './photo/photo.component';
 import { RouteReuseStrategy } from '@angular/router';
 import { CustomReuseStrategy } from './reuse-strategy';
 
+import { LazyLoadImageModule, LAZYLOAD_IMAGE_HOOKS, ScrollHooks } from 'ng-lazyload-image';
+
 @NgModule({
   declarations: [AppComponent, PhotosComponent, AlbumsComponent, AlbumComponent, PhotoComponent],
   imports: [
@@ -41,7 +43,8 @@ import { CustomReuseStrategy } from './reuse-strategy';
     MatCardModule,
     MatMenuModule,
     HttpClientModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    LazyLoadImageModule
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: CustomReuseStrategy }],
   bootstrap: [AppComponent]
