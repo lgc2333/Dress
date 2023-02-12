@@ -1,13 +1,15 @@
-# 源仓库寄掉辣，这个是fork
+## 非物质文化遗产保留计划 已merge所有源仓库pr
 
 ## Dress - 面向可爱的蓝孩子 (/ω＼) 的 git 学习实践项目 on GitHub
 
 ### Dress - A Study and Practice project of git.
 # ***If you are feeling puzzled and weird about the project, please read [README DETAIL](README_DETAIL.md)***
 
-[![Contributors](https://img.shields.io/github/contributors/komeiji-satori/Dress.svg)](https://github.com/komeiji-satori/Dress/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/lgc2333/Dress.svg)](https://github.com/komeiji-satori/Dress/graphs/contributors)
+<!--
 [![Build Status](https://www.travis-ci.org/komeiji-satori/Dress.svg?branch=master)](https://www.travis-ci.org/komeiji-satori/Dress)
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/komeiji-satori/Dress.svg)
+-->
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/lgc2333/Dress.svg)
 [![License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 
 项目很简单且并不要求你贡献代码，没有编程技能都可以参加。你可以从这里学习从克隆项目，创建分支，提交和同步修改，到合并分支请求的整套流程，一次即可熟悉 Git/GitHub 的使用。 
